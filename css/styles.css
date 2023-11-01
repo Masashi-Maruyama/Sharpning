@@ -2,9 +2,10 @@ body{
     background-image: url(../images/71a940b0-75fc-11ee-84ba-091bdac7b8cc-3893789.jpg);
     background-size: cover;
     padding-left: 20px;
+    color: white;
 }
 .shape{
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 nav{
     background-color: rgba(68, 28, 0, 0.5);
