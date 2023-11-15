@@ -33,7 +33,13 @@ nav{
 
 }
 
-.images {
-    border-radius: 20px; /* または適切な角の半径を指定 */
-    overflow: hidden;
+figure img {
+    border-radius: 20px;
+}
+
+p a{
+    color:cyan;
+}
+p a:hover{
+    background-color:whitesmoke;
 }
