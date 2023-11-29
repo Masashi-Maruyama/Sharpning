@@ -1,0 +1,31 @@
+body{
+    background-image: url(../images/f851e070-76f3-11ee-84ba-091bdac7b8cc-5711086.jpg);
+    background-size: cover;
+    padding-left: 20px;
+    color: white;
+}
+nav{
+    background-color: rgba(68, 28, 0, 0.5);
+}
+#nav_menu ul{
+    list-style: none;
+    display: table;
+}
+.menu:hover{
+    background-color: mediumspringgreen;
+
+}
+#nav_menu ul li{
+    display: inline-block;
+    border-right: 1px solid white;
+    padding: 0 5px;
+}
+#nav_menu ul li:last-child{
+    border-right: none;
+}
+
+#nav_menu ul li a{
+    color: white;
+    text-decoration: none;
+
+}
