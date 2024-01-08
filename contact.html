@@ -1,49 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="このWebサイトの概要の説明文です">
+    <meta name="keywords" content="このWebサイトのキーワード１, このWebサイトのキーワード２">
     <title>Document</title>
-    <link rel="stylesheet" href="css/styles2.css" />
-</head>
-<body>
-    <divdiv class="shape">
-        <header>
-            <nav id="nav_menu">
-              <ul>
-                <li class="menu"><a href="index.html">Top Page</a></li>
-                <li class="menu"><a href="order.html">Order</a></li>
-                <li class="menu"><a href="price.html">Price</a></li>
-                <li class="menu"><a href="teaching.html">Teaching</a></li>
-                <li class="menu"><a href="aboutUs.html">About Us</a></li>
-                <li class="menu"><a href="contact.html">Contact</a></li>
-              </ul>
-            </nav>
-            <h1>Contact</h1>
-          </header>
-          <main>
-            </form>
-            <h2>info</h2>
-                <table>
-              <tr>
-                <td><label for="Full_Name">Full Name - </label></td>
-                <td><input type="text" name="name" id="Full_Name" placeholder="NAME" required></td>
-              </tr>
-              <tr>
-                <td><label for="Phone">Phone Number - </label></td>
-                <td><input type="text" name="Number" id="Phone" placeholder="e.g. 000-000-0000" required></td>
-              </tr>
-              <tr>
-                <td><label for="Email">E-Mai Address - </label></td>
-                <td><input type="text" name="Email" id="Email" required></td>
-                <td><input type="text" name="EmailConfirm" id="confirm" placeholder="Confirm E-Mai" required></td>
-              </tr>
-              <tr>
-                
-                
-              </tr>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="shortcut icon" href="images/2511200.png" />
+  </head>
+  <body class="contact">
+    <div class="shape">
+      <header>
+        <nav id="nav_menu">
+          <ul>
+            <li class="menu"><a href="index.html">Top Page</a></li>
+            <li class="menu"><a href="order.html">Order</a></li>
+            <li class="menu">
+                <a href="price.html" class="menu_link">Price</a>
+                <ul class="drop-menu">
+                  <li class="drop-menu_item"><a href="price.html#Household" class="drop-menu_link">Household Knife</a></li>
+                  <li class="drop-menu_item"><a href="price.html#Petty" class="drop-menu_link">Petty Knife</a></li>
+                  <li class="drop-menu_item"><a href="price.html#Bread" class="drop-menu_link">Bread Knife</a></li>
+                  <li class="drop-menu_item"><a href="price.html#Chef" class="drop-menu_link">Chef Knife</a></li>
+                  <li class="drop-menu_item"><a href="price.html#Scissors" class="drop-menu_link">Scissors</a></li>
+                </ul>
+            </li>
+            <li class="menu"><a href="extra.html">Teaching</a></li>
+            <li class="menu"><a href="extra.html">About Us</a></li>
+            <li class="menu"><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <h1>Contact</h1>
+      </header>
+      <main>
+        <form action="receiving.html" method="post">
+          <table>
+            <tr>
+              <td><label for="Full_Name">Full Name - </label></td>
+              <td>
+                <input
+                  type="text"
+                  name="name"
+                  id="Full_Name"
+                  placeholder="NAME"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="Phone">Phone Number - </label></td>
+              <td>
+                <input
+                  type="text"
+                  name="Number"
+                  id="Phone"
+                  placeholder="e.g. 000-000-0000"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="Email">E-Mail Address - </label></td>
+              <td><input type="text" name="Email" id="Email" required /></td>
+            </tr>
+            <tr>
+              <td><label for="confirm">Confirm E-Mail - </label></td>
+              <td>
+                <input
+                  type="text"
+                  name="EmailConfirm"
+                  id="confirm"
+                  placeholder="Confirm E-Mail"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Message</td>
+              <td><textarea name="message" id="message"></textarea></td>
+            </tr>
           </table>
-          </main>
+          <p><button type="submit">SEND MESSAGE!</button></p>
+        </form>
+      </main>
+      <footer>
+        <p><small>&copy;Sharpening</small></p>
+      </footer>
     </div>
-</body>
+    <script src="JavaScript/index.js"></script>
+  </body>
 </html>

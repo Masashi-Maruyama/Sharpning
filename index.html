@@ -3,24 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="このWebサイトの概要の説明文です">
+    <meta name="keywords" content="このWebサイトのキーワード１, このWebサイトのキーワード２">
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="shortcut icon" href="images/food-7248455_1920.png" />
+    <link rel="shortcut icon" href="images/2511200.png" />
     <title>Document</title>
   </head>
-  <body>
+  <body class="index">
     <div class="shape">
       <header>
         <nav id="nav_menu">
           <ul>
             <li class="menu"><a href="index.html">Top Page</a></li>
             <li class="menu"><a href="order.html">Order</a></li>
-            <li class="menu"><a href="price.html">Price</a></li>
-            <li class="menu"><a href="teaching.html">Teaching</a></li>
-            <li class="menu"><a href="aboutUs.html">About Us</a></li>
+            <li class="menu">
+              <a href="price.html" class="menu_link">Price</a>
+              <ul class="drop-menu">
+                <li class="drop-menu_item"><a href="price.html#Household" class="drop-menu_link">Household Knife</a></li>
+                <li class="drop-menu_item"><a href="price.html#Petty" class="drop-menu_link">Petty Knife</a></li>
+                <li class="drop-menu_item"><a href="price.html#Bread" class="drop-menu_link">Bread Knife</a></li>
+                <li class="drop-menu_item"><a href="price.html#Chef" class="drop-menu_link">Chef Knife</a></li>
+                <li class="drop-menu_item"><a href="price.html#Scissors" class="drop-menu_link">Scissors</a></li>
+              </ul>
+          </li>          
+            <li class="menu"><a href="extra.html">Teaching</a></li>
+            <li class="menu"><a href="extra.html">About Us</a></li>
             <li class="menu"><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
-        <h1>Make Cooking more Fun and more Efficient</h1>
+        <h1>Make Cooking more Fun! more Efficient!</h1>
       </header>
       <main>
         <h2>Are you cutting things with force?</h2>
@@ -29,70 +40,76 @@
           <strong>tire</strong> people.<br />
           We are professional can help you take these <em>issue</em> if you send
           it to us.<br />
-          A sharp knife reduces stress and makes cooking more enjoyable.
-        </p>
+          A sharp knife reduces stress and makes cooking more enjoyable.</br>
+          Let's <a href="order.html">Estimate Price</a></p>
         <figure class="images">
           <img
             src="../Sharpning/images/bf2b4990-76d9-11ee-84ba-091bdac7b8cc-sb6UGjIYIpo.jpg"
-            width="215"
-            height="160"
+            width="500"
+            height="400"
             alt="cuttingImage1"
             id="cuttingVege1"
+            class="indexImg"
           />
         </figure>
-        <p><a href="order.html">Order It</a></p>
         <h2>Sharpen more than just knives.</h2>
         <p>
-          <em><b>We are not only Sharpning kichen knives</b></em
-          >,<br />
-          professional can handle all items that require sharpening, from
-          scissors to tools, etc.<br />
-          Please contact us to discuss what kind of items you would like to
-          sharpen.
+          <em><b>We are not only Sharpning kichen knives</b></em>,<br />
+          professional can handle all items that require sharpening,</br>
+           from scissors to tools, etc.<br />
+          Please <a href="contact.html">Contact US</a> to discuss what kind of items you would like to
+          sharpen.</p>
         </p>
         <figure class="images">
           <img
             src="../Sharpning/images/01cc7d60-76de-11ee-84ba-091bdac7b8cc-1534065.jpg"
-            width="210"
-            height="160"
+            width="280s"
+            height="220"
             alt="toolImage0"
             id="toolImage0"
+            class="indexImg"
           />
           <img
             src="../Sharpning/images/db77e460-75fc-11ee-84ba-091bdac7b8cc-57461.jpg"
-            width="210"
-            height="160"
+            width="280s"
+            height="220"
             alt="toolImage0"
             id="toolImage0"
+            class="indexImg"
           />
         </figure>
-        <p><a href="contact.html">Contact US</a></p>
         <h2>Professional Work</h2>
         <p>
           <em><b>All work is done by hand by professionals.</b></em
           ><br />
           We will bring out the <strong>best performance</strong> from your
           blades<br />
-          through our years of experience and cultivated knowledge.
+          through our years of experience and cultivated knowledge.</br>
+          If you want to get more Information, you can visit <a href="extra.html">Our Company</a></p>
         </p>
         <figure class="images">
           <img
             src="../Sharpning/images/ab773f40-76d3-11ee-84ba-091bdac7b8cc-1659747.jpg"
-            width="110"
-            height="160"
+            width="280s"
+            height="220"
             alt="sharpnerImge0"
             id="sharpnerImg"
+            class="indexImg"
           />
           <img
             src="../Sharpning/images/df7325a0-76f3-11ee-84ba-091bdac7b8cc-5973839.jpg"
-            width="210"
-            height="160"
+            width="280"
+            height="220"
             alt="sharpnerImge0"
             id="sharpnerImge0"
+            class="indexImg"
           />
         </figure>
-        <p><a href="AboutUs.html">Our Company</a></p>
       </main>
+      <footer>
+        <p><small>&copy;Sharpening</small></p>
+      </footer>
     </div>
+    <script src="JavaScript/index.js"></script>
   </body>
 </html>
